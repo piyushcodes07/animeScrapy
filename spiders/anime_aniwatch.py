@@ -14,4 +14,4 @@ class AnimeAniwatchSpider(scrapy.Spider):
                 "number":anime.css("div.number span::text").get(),
                 "poster-image":anime.css("img::attr(data-src)").get(),
                 "title":anime.css("img::attr(title)").get()
-            }
+            } 
